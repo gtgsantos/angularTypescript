@@ -53,5 +53,4 @@ gulp.task('compile', function () {
         .pipe(gulp.dest('app/target/js/'));
 });
 
-
 gulp.task('default', ['connect', 'watch', 'compile', 'index']);
